@@ -2,10 +2,11 @@
 
     <PropertyGroup>
         <OutputType>WinExe</OutputType>
-        <TargetFramework>net481</TargetFramework>
-        <Nullable>enable</Nullable>
+        <TargetFramework>net6.0-windows</TargetFramework>
+        <Nullable>disable</Nullable>
         <ImplicitUsings>enable</ImplicitUsings>
         <UseWPF>true</UseWPF>
+        <UseWindowsForms>true</UseWindowsForms>
         <LangVersion>11</LangVersion>
         <ApplicationIcon>Resources\ico_main.ico</ApplicationIcon>
         <Authors>Zhong Alex</Authors>
@@ -28,6 +29,10 @@
     <ItemGroup>
       <None Remove="Resources\ico_main.ico" />
       <Resource Include="Resources\ico_main.ico" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <PackageReference Include="Mar.Console" Version="0.6.3" />
     </ItemGroup>
 
 </Project>

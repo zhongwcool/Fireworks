@@ -5,7 +5,9 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Fireworks"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
+        WindowStyle="None" AllowsTransparency="True" Background="Transparent" Topmost="True" WindowState="Maximized"
+        ShowInTaskbar="False"
+        Title="Fireworks" Height="450" Width="800">
     <Grid>
         <Canvas x:Name="ParticleCanvas">
         </Canvas>
