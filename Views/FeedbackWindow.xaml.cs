@@ -43,7 +43,7 @@ public partial class FeedbackWindow : Window
         {
             builder.Append(task.Result);
             var body = builder.ToString();
-            SendEmail("zhongw@uwv-tech.com", $"用户反馈-{timestamp}", body);
+            SendEmail("zhongwcool@163.com", $"用户反馈-{timestamp}", body);
             // 这里处理提交逻辑，例如保存反馈信息
             MessageBox.Show("反馈已提交！");
             Dispatcher.Invoke(Close);
